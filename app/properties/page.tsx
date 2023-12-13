@@ -3,6 +3,7 @@ import getListings from '../actions/getListings';
 
 import EmptyState from '../components/EmptyState';
 import PropertiesClient from './PropertiesClient';
+export const dynamic = 'force-dynamic';
 
 const PropertiesPage = async () => {
   const currentUser = await getCurrentUser();
